@@ -1,8 +1,8 @@
-/* body{
+ body{
     background-image: url("https://www.relocationafrica.com/wp-content/uploads/2016/03/ghana_welcome.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-} */
+}
 .jumbotron {
     padding: 2rem 1rem;
     margin-bottom: 2rem;
@@ -10,7 +10,12 @@
     border-radius: 0.3rem;
     text-align:center;
     font-weight:bolder;
+    font-size:20px;
   }
   h2{
       color: whitesmoke;
+  }
+  form{
+      text-align:center;
+      color:red;
   }
