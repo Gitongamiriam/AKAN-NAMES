@@ -3,9 +3,9 @@
     <head>
         <meta charset="utf-8">
         <meta charset="viewport" content="width=device-width,initial-scale=1">
-            <link rel="stylesheet" type="text/css" href ="bootstrap.css">
+            <link rel="stylesheet" type="text/css" href ="css/bootstrap.css">
             <link rel="stylesheet" type="text/css" href="styles.css">
-            <script src="scripts.js"></script> 
+            <script src="css/scripts.js"></script> 
      <title>AKAN NAMES</title>
      </head>
      <body>
@@ -18,98 +18,28 @@
                         character of the person.Middle names have considerably more variety and can refer to birth order,
                         twins status ,or an ancestor's middle name.Here are Ghananian Culture .</p>
              </div>
-                 
-         </div>
-         <h2>Ghananian Culture Rulls it all know the meaning of your name and your character</h2>
-         <form>
-             <div class="row">
-                 <div class ="col-md-6">
-                     <div class ="form-selection top-form">
-                         <label>NAME</label>
-                         <input type="name" class="form-control" placeholder="write here" id=" NAME" required min ="0"max="100">
-                     </div><br>
-                     <div class ="row">
-                         <div class ="col-md-3">
+        </div>
+        <div>
+        <h2>Ghananian Culture Rulls it all know the meaning of your name and your character</h2>
+        </div>
+             <div id = "form">
+             <form onsubmit="formCheck()" class="col-md-4" >
                              <label>DATE</label>
-                             <input type ="numbers" class ="form-control form-control">
-                             <select id="date" class ="form-control form-control">
-                                 <option>1</option>
-                                 <option>2</option>
-                                 <option>3</option>
-                                 <option>4</option>
-                                 <option>5</option>
-                                 <option>6</option>
-                                 <option>7</option>
-                                 <option>8</option>
-                                 <option>9</option>
-                                 <option>10</option>
-                                 <option>11</option>
-                                 <option>12</option>
-                                 <option>13</option>
-                                 <option>14</option>
-                                 <option>15</option>
-                                 <option>16</option>
-                                 <option>17</option>
-                                 <option>18</option>
-                                 <option>19</option>
-                                 <option>20</option>
-                                 <option>21</option>
-                                 <option>23</option>
-                                 <option>24</option>
-                                 <option>25</option>
-                                 <option>26</option>
-                                 <option>27</option>
-                                 <option>28</option>
-                                 <option>29</option>
-                                 <option>30</option>
-                                 <option>31</option>
-                            </select>
-                         </div>
-                     </div><br>
-                     <div class ="row">
-                         <div class ="col-md-3">
+                             <input type="numbers" id="date" class ="form-control">
                              <label>MONTH</label>
-                             <input type="text" class="form-control form-control">
-                             <select id ="month" >
-                                 <option>1</option>
-                                 <option>2</option>
-                                 <option>3</option>
-                                 <option>4</option>
-                                 <option>5</option>
-                                 <option>6</option>
-                                 <option>7</option>
-                                 <option>8</option>
-                                 <option>9</option>
-                                 <option>10</option>
-                                 <option>11</option>
-                                 <option>12</option>
-                            </select>
-                         </div>
-                     </div><br>
-                     <div class ="row">
-                         <div class ="col-md-3">
+                             <input type="number" id ="month" class ="form-control">
                              <label>YEAR</label>
-                             <input type ="number" class ="form-control form-control">
-                         </div>
-                     </div><br>
-                     <div class="row">
-                         <div class="col-md-3">
+                             <input type ="number" id ="year" class ="form-control form-control">
                              <label>CENTURY</label>
-                             <input type="number" class ="form-control">
-                         </div>
-                     </div><br>
-                     <label>GENDER</label>
-                     <div class ="row">
-                         <div class ="col-md-3">
-                          <input type="radio" name="gender" id="male">
+                             <input type="number" id ="century" class ="form-control">
+                             <label>GENDER</label>
+                             <input type="radio" name="gender" id="male">
                              <label for ="male">MALE</label><br>
                              <input type="radio" name="gender" id="female">
                              <label for ="female">FEMALE</label><br>
-                         </div>
-                     </div>
-                 </div>
-             </div>
+                            <button type="submit" class="btn btn-primary">Submit</button>
          </form>
+             </div>
 
      </body>
 </html>
