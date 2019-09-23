@@ -1,45 +1,35 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="utf-8">
-        <meta charset="viewport" content="width=device-width,initial-scale=1">
-            <link rel="stylesheet" type="text/css" href ="css/bootstrap.css">
-            <link rel="stylesheet" type="text/css" href="styles.css">
-            <script src="css/scripts.js"></script> 
-     <title>AKAN NAMES</title>
-     </head>
-     <body>
-         <div class ="container">
-             <div class ="jumbotron">
-                 <h1>AKAN NAMES</h1>
-                 <p>The Akan names are derived from Ghananian culture.
-                        The Akan People of Ghana frequently name thier children after the day of the week they were born
-                        and the order in which they were born .These "day names" have further meanings concerning the soul
-                        character of the person.Middle names have considerably more variety and can refer to birth order,
-                        twins status ,or an ancestor's middle name.Here are Ghananian Culture .</p>
-             </div>
+        <title>AKAN NAMES</title>
+        <link rel="stylesheet" type="text" href="css/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <script src="./css/scripts.js"></script>
+    </head>
+    <body>
+        <div class ="container">
+            <div class="jumbotron">
+                <h1>AKAN GHANANIAN NAMING CULTURE</h1>
+                <p> The Akan people of Ghana frequently name thier children after the day 
+                    of week they were born and the order in which they were born .These 
+                    "day names" have further meaning concerning the soul and character of 
+                    the person .Middle names have considerably more variety and can refer to thier 
+                    birth order,twins status, or an ancestor's middle name.
+                </p>
+            </div>
         </div>
-        <div>
-        <h2>Ghananian Culture Rulls it all know the meaning of your name and your character</h2>
-        </div>
-             <div id = "form">
-             <form onsubmit="formCheck()" class="col-md-4" >
-                             <label>DATE</label>
-                             <input type="numbers" id="date" class ="form-control">
-                             <label>MONTH</label>
-                             <input type="number" id ="month" class ="form-control">
-                             <label>YEAR</label>
-                             <input type ="number" id ="year" class ="form-control form-control">
-                             <label>CENTURY</label>
-                             <input type="number" id ="century" class ="form-control">
-                             <label>GENDER</label>
-                             <input type="radio" name="gender" id="male">
-                             <label for ="male">MALE</label><br>
-                             <input type="radio" name="gender" id="female">
-                             <label for ="female">FEMALE</label><br>
-                            <button type="submit" class="btn btn-primary">Submit</button>
-         </form>
-             </div>
+        <form>
+            <label>DAY</label>
+            <input type="text" id ="day">
+            <br><label>MONTH</label>
+            <input type ="text"  id="month" >
+            <br><label>YEAR</label>
+            <input type="text" id ="year">
+            <br><label>GENDER</label>
+            <input type="radio" name="gender"  value="male">Male
+            <input type="radio" name ="gender"  value="Female">Female<br>
+            <input type="submit" name="submit" value ="Submit" onclick="checkgender()">
+        </form> 
 
-     </body>
+    </body>
 </html>
