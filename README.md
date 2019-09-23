@@ -10,7 +10,19 @@ Access to the internet
 install text editor
 You should have a browser
 ## BDD
-it is supposed to display your akan name immeadiately after you've  enter your details.
+| Inputs| Description |
+| :---
+| year | The year that the user was born ' 'eg 50th year '' | 
+| month | The month of the year '' eg 5th month ''|
+| date | The day of the month '' eg 6th day ''|
+
+| output | Description |
+| :---
+| day of birth | the day of the week that the user was born '' eg tuesday'' |
+| akan name | The coresponding akan name for the user '' eg kwame '' |
+|           |                          |
+## Bugs
+no known Bugs
 ## Techonologies Used
 HTML ,CSS and JavaScript.
 ## Contact Information
