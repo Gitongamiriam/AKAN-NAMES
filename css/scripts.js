@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 var akanMale = ['Kwasi', 'Kwadwo', 'Kwabena', 'Kwaku', 'Yaw', 'Kofi', 'Kwame'];
 var akanFemale = ['Akosua', 'Adwoa', 'Abenaa', 'Akua', 'Yaa', 'Afua', 'Ama'];
 var dayOfTheWeek =["Sunday","Monday","Tuesday","Wednsday","Thursday","Friday","Saturday"];
@@ -27,3 +28,5 @@ function checkout(){
     }
 }
 
+=======
+>>>>>>> 86429c0fff7f405429d6248165d88d86f3da93b4
