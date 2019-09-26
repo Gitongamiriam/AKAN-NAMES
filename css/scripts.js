@@ -6,17 +6,31 @@ function checkgender() {
     var month =parseInt(document.getElementById("month").value);
     var year =parseInt(document.getElementById("year").value);
     var day=parseInt(document.getElementById("day").value);
-    var gender=checkout();
     var date=new Date(year + "/" + month + "/" + day);
-    var day=date.getDay();
+    var gender=checkout();
+    var day2=date.getDay();
     var akan; 
-    if(gender === "male") {
-        akan =akanMale[day];
+
+    if(day <1 || day >31){
+        alert("invalid date");
+            return false;
     }
-        else{
-            akan =akanFemale[day];
-        }
-            alert("You were born on " + dayOfTheWeek [day] + "and your akan name is " + akan);
+    if (month <1 || month>12){
+        alert("Invalid month");
+        return false;
+    }
+    
+    if(year <1900 || year >2019){
+            alert("invalid year");
+            return false;
+    }
+
+    if(gender === "male") {
+        akan =akanMale[day2];
+    }else{
+            akan =akanFemale[day2];
+    }
+            alert("You were born on " + dayOfTheWeek [day2] + "and your akan name is " + akan);
 }
 function checkout(){
     var gender=document.getElementsByName("gender");
@@ -25,5 +39,6 @@ function checkout(){
             return(gender[i].value)
         }
     }
+
 }
 
